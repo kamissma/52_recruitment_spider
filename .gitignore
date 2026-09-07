@@ -1,0 +1,39 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# ---------- 前端 ----------
+node_modules/
+frontend/dist/
+dist/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+
+# ---------- 日志 / 临时文件 ----------
+logs/
+*.log
+backend/db_test_result.txt
+backend/pip_install.txt
+backend/ver2.txt
+backend/verify_out.txt
+frontend/built_ok.txt
+
+# ---------- 敏感配置（数据库密码 / 密钥，勿上传） ----------
+.env
+.env.*
+
+# ---------- 大数据 / 模型训练产物 ----------
+招聘信息-job_raw.sql
+ml/salary_forecast/saved_models/
+ml/salary_forecast/data/validation_data.csv
+ml/salary_forecast/model/catboost_info/

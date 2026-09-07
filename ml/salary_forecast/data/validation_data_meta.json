@@ -1,0 +1,12 @@
+{
+  "path": "D:\\hy\\cs\\52_recuitment_spider\\ml\\salary_forecast\\data\\validation_data.csv",
+  "n_samples": 21220,
+  "n_features": 71,
+  "target_definition": "(salary_min + salary_max) / 2",
+  "target_column": "salary_target",
+  "salary_target_min": 2420.0,
+  "salary_target_max": 70000.0,
+  "salary_target_mean": 13665.471583411876,
+  "has_salary_range": true,
+  "created_at": "2026-08-25T13:24:44.753502"
+}
